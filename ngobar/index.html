@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>treasure model</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <div class="container">
+
+        <header class="header">
+            <div class="hero">
+                <h2 class="heading">Treasure Model</h2>
+                <p class="sub-heading">a professional model from south korea</p>
+            </div>
+            <div class="features feature-1">
+                <h4 class="price">IDR 200K</h4>
+                <p class="item">Hoodie</p>
+            </div>
+            <div class="features feature-2">
+                <h4 class="price">IDR 100K</h4>
+                <p class="item">Beanie Hat</p>
+            </div>
+        </header>
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox" name="">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="brand">
+                <h1>treasure merch</h1>
+            </div>
+            <ul class="menu-list">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <section class="services">
+            <div class="service">
+                <div class="icon"><img src="img/1.jpg" alt=""></div>
+                <h3>Discount</h3>
+                <p>Up To 70%</p>
+            </div>
+            <div class="service">
+                <div class="icon"><img src="img/2.jpg" alt=""></div>
+                <h3>Free Shiping</h3>
+                <p>Free Shiping 100%</p>
+            </div>
+            <div class="service">
+                <div class="icon"><img src="img/3.jpg" alt=""></div>
+                <h3>Best Products</h3>
+                <p>Our Best Produtcs</p>
+            </div>
+            <div class="service">
+                <div class="icon"><img src="img/3.jpg" alt=""></div>
+                <h3>New Collections</h3>
+                <p>Our New Colab Colections</p>
+            </div>
+        </section>
+
+
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <img src="img/4.jpg" alt="">
+            <img src="img/5.jpg" alt="">
+            <img src="img/7.jpg" alt="">
+            <img src="img/9.jpg" alt="">
+            <img src="img/10.jpg" alt="">
+            <img src="img/11.jpg" alt="">
+            <img src="img/12.jpg" alt="">
+            <img src="img/13.jpg" alt="">
+            <img src="img/14.jpg" alt="">
+            <img src="img/15.jpg" alt="">
+        </section>
+
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', function () {
+            nav.classList.toggle('slide');
+        });
+    </script>
+
+</body>
+</html>
